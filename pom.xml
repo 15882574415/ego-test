@@ -6,6 +6,8 @@
         <module>ego-registry</module>
         <module>ego-api-gateway</module>
         <module>ego-item</module>
+        <module>ego-common</module>
+        <module>ego-upload</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

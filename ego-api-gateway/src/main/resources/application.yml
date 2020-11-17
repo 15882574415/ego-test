@@ -20,6 +20,8 @@ zuul:
   retryable: true
   routes:
     item-service: /item/**
+  ignored-services:
+    - upload-service # 忽略upload-service服务
 
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
