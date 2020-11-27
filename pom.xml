@@ -10,6 +10,7 @@
         <module>ego-upload</module>
         <module>ego-elasticsearch</module>
         <module>ego-search</module>
+        <module>ego-goods-web</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

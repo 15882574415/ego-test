@@ -29,4 +29,8 @@ public class CategoryService {
 
         return  categoryMapper.select(category);
     }
+
+    public List<Category> getListByCids(List<Long> cids) {
+        return categoryMapper.selectByIdList(cids);
+    }
 }

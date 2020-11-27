@@ -1,6 +1,6 @@
 package com.ego.search.service;
 
-import com.ego.common.pojo.NumberUtils;
+import com.ego.common.utils.NumberUtils;
 import com.ego.common.pojo.PageResult;
 import com.ego.item.bo.SpuBO;
 import com.ego.item.pojo.Brand;
